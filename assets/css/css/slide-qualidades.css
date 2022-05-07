@@ -1,0 +1,85 @@
+.body-of-slide{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    /*background-color: greenyellow;*/
+}
+
+.slide{
+    border-radius:4px;
+    /*background-color: rgb(66, 134, 211);*/
+    padding:40px 20px;
+}
+
+.slides{
+    width: 43ch;
+    display:flex;
+    overflow-x:hidden;
+}
+
+.image-dad .img{
+    width: 43ch;
+    display:grid;
+    grid-template-columns: auto 1fr;
+    gap:20px;
+}
+
+
+#atual{
+    transition: all 2s;
+}
+
+.btn{
+    position:absolute;
+    color:#fff;
+    padding: 10px;
+    text-align:center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+    transition: all 0.4s;
+    font-size: 1.7em;
+    margin-top: -5px;
+}
+
+.btn:hover{
+    transform: scale(1.5);
+}
+
+#voltar{
+    top: 90%;
+    left: -200%;
+}
+
+#next{
+    top: 90%;
+    right: -200%;
+}
+
+.balls{
+    position:absolute;
+    width: 1024px;
+    display:flex;
+    justify-content: center;
+    margin-top:10px;
+    margin-left:-313px;
+}
+
+.balls div{
+    transition: all 0.5s;
+    border: 3px solid #F25D07;
+    padding: 6px;
+    border-radius: 50%;
+    margin-right: 15px;
+    cursor:pointer;
+}
+
+.balls div:hover{
+    background-color:#F25D07;
+}
+
+.imgAtual{
+    transition: all 0.5s;
+    background-color: #F25D07;
+}

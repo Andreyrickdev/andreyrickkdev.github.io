@@ -1,0 +1,33 @@
+.language{
+    background-color:#141414;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.language header{
+    background-color:#141414;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    padding: 10px;
+    display: flex;
+}
+
+.language h3{
+    color: #fff;
+    font-size: 2rem;
+    padding: 5px;
+    display: inline-block;
+}
+
+.language ul{
+    padding: 10px;
+}
+
+.language li{
+    color: #fff;
+}
+
+.language span{
+    color: #F25D07;
+    font-weight: bold;
+}

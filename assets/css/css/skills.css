@@ -1,0 +1,24 @@
+.skills{
+    background-color:#141414;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.skills header{
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    background-color:#141414;
+    padding:10px;
+    display:flex;
+}
+
+.skills h3{
+    color:#fff;
+    font-size:2rem;
+    padding: 5px;
+    display:inline-block;
+}
+
+.my-skills{
+    display:flex;
+}
