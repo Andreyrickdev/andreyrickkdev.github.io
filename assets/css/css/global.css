@@ -19,9 +19,11 @@ body{
     border-radius: 40px;
 }
 
-::-webkit-scrollbar-thumb:hover{
+::-webkit-scrollbar-thumb:hover, ::-webkit-scrollbar-thump:active{
     background-color: #F25D07;
 }
+
+
 
 h1,
 h2,
