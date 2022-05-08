@@ -1,13 +1,11 @@
 .body-of-slide{
-    width:100%;
     display:flex;
     justify-content: center;
-    /*background-color: greenyellow;*/
+    overflow-x: hidden;
 }
 
 .slide{
     border-radius:4px;
-    /*background-color: rgb(66, 134, 211);*/
     padding:40px 20px;
 }
 
@@ -22,6 +20,7 @@
     display:grid;
     grid-template-columns: auto 1fr;
     gap:20px;
+    background-color: rgba(255,255,255,0.4);
 }
 
 
@@ -41,13 +40,14 @@
     transition: all 0.4s;
     font-size: 1.7em;
     margin-top: -5px;
+
 }
 
 .btn:hover{
     transform: scale(1.5);
 }
 
-#voltar{
+/*#voltar{
     top: 90%;
     left: -200%;
 }
@@ -55,7 +55,7 @@
 #next{
     top: 90%;
     right: -200%;
-}
+}*/
 
 .balls{
     position:absolute;
@@ -64,6 +64,7 @@
     justify-content: center;
     margin-top:10px;
     margin-left:-313px;
+
 }
 
 .balls div{
@@ -73,6 +74,7 @@
     border-radius: 50%;
     margin-right: 15px;
     cursor:pointer;
+
 }
 
 .balls div:hover{

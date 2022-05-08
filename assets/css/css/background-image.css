@@ -3,8 +3,9 @@
 
 .dad-background{
     position: relative;
-    width:100%;
+    display:block;
     height:60vh;
+    overflow-x: hidden;
 }
 
 .dad-background h3{
