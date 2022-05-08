@@ -1,5 +1,5 @@
 .body-of-slide{
-    display:flex;
+    display:none;
     justify-content: center;
     overflow-x: hidden;
 }
@@ -7,6 +7,7 @@
 .slide{
     border-radius:4px;
     padding:40px 20px;
+    overflow-x: hidden;
 }
 
 .slides{
@@ -21,6 +22,10 @@
     grid-template-columns: auto 1fr;
     gap:20px;
     background-color: rgba(255,255,255,0.4);
+}
+
+.image{
+    background-color:tomato;
 }
 
 
@@ -64,7 +69,6 @@
     justify-content: center;
     margin-top:10px;
     margin-left:-313px;
-
 }
 
 .balls div{
