@@ -1,5 +1,5 @@
 .body-of-slide{
-    display:none;
+    display:flex;
     justify-content: center;
     overflow-x: hidden;
 }
@@ -12,8 +12,10 @@
 
 .slides{
     width: 43ch;
+
     display:flex;
     overflow-x:hidden;
+
 }
 
 .image-dad .img{
@@ -22,10 +24,16 @@
     grid-template-columns: auto 1fr;
     gap:20px;
     background-color: rgba(255,255,255,0.4);
+    
+}
+
+.remove-slide{
+    display:none;
 }
 
 .image{
-    background-color:tomato;
+    background-color:rgb(0, 255, 85);
+    
 }
 
 
@@ -64,11 +72,11 @@
 
 .balls{
     position:absolute;
-    width: 1024px;
+    width:auto;
     display:flex;
     justify-content: center;
     margin-top:10px;
-    margin-left:-313px;
+    margin-left:123px;
 }
 
 .balls div{
