@@ -38,6 +38,7 @@
     font-size:7rem;
     text-transform:uppercase;
     color:#F25D07;
+    color:blue;
 }
 
 @media (max-width:500px) {
