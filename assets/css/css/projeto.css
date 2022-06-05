@@ -280,7 +280,44 @@
 
 /*só para testar*/
 .lista-projetos li > p{
-    display:none;
+    /*display:none;*/
+}
+
+.lista-projetos li > p > myTags{
+    display: flex;
+    gap: 5px;
+}
+
+myTags > span{
+    display: inline-block;
+    background-color: #8f8f8f;
+    padding: 2px 2px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.tagHtml {
+    background-color: #db3232;
+}
+
+.tagCss {
+    background-color: #3254db;
+}
+
+.tagJs {
+    background-color: #dbae32;
+}
+
+.tagFireBase {
+    background-color: #db9d32;
+}
+
+.tagMongoDb {
+    background-color: #32db57;
+}
+
+.tagReactNative {
+    background-color: #32cadb;
 }
 /*---------------*/
 @media (max-width: 1000px){
@@ -358,7 +395,7 @@
     opacity: 0.5;
 }
 
-.lista-projetos p{
+.lista-projetos .boxForP{
     position:absolute;
     background-color:#141414;
     opacity:0.7;
