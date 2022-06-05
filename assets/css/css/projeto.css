@@ -275,8 +275,14 @@
     margin: 0px;
     width:40ch;
     position:relative;
+    background-color: #F25D07;
 }
 
+/*só para testar*/
+.lista-projetos li > p{
+    display:none;
+}
+/*---------------*/
 @media (max-width: 1000px){
 
     .projetos-menu{
@@ -338,11 +344,18 @@
     }
 }
 
-
 .lista-projetos img{
     width:100%;
     cursor:pointer;
     height:100%;
+}
+
+.lista-projetos li > img:hover{
+    opacity: 0.7;
+}
+
+.lista-projetos li > img:active{
+    opacity: 0.5;
 }
 
 .lista-projetos p{
