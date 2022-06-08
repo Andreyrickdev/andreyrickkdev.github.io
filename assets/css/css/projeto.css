@@ -409,6 +409,9 @@ myTags > span{
     bottom:0;
     color:#fff;
     width: 100%;
+    height:23px;
+    transition: all .6s;
+    overflow-y: hidden;
 }
 
 .link-pros-projetos{
@@ -421,9 +424,30 @@ myTags > span{
     cursor:pointer;
     font-size:1.2rem;
     text-transform: uppercase;
+    position: relative;
+    visibility: hidden;
+    transition: all .4s;
 }
 
-/*
 .boxForP-hide{
     display:block;
-}*/
+    position: relative;
+    visibility: hidden;
+}
+
+.boxForP-display{
+    display:block;
+    position: relative;
+    visibility: visible;
+}
+
+.link-pros-projetos-display{
+    display:block;
+    position: relative;
+    visibility: visible;
+}
+
+.boxForP-auto{
+    height: 16vh!important;
+}
+
