@@ -264,6 +264,10 @@
     color: #F25D07;
 }
 
+.projetos-menu li > img{
+    display:none;
+}
+
 .lista-projetos{
     justify-content: center;
     display:flex;
@@ -278,11 +282,6 @@
     width:40ch;
     position:relative;
     background-color: #F25D07;
-}
-
-/*só para testar*/
-.lista-projetos li > p{
-    /*display:none;*/
 }
 
 .lista-projetos li > p > myTags{
@@ -339,22 +338,18 @@ myTags > span{
     }
 
     .projetos-menu li{
-        display:block;
+        display:flex;
         font-size:2rem;
         text-align: center;
         padding: 15px;
         overflow-x: hidden;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
     }
 
-    .projetos-menu li::before{
-        content:' ―';
-        color: #F25D07;
-    }
-
-    .projetos-menu li::after{
-        content: '― ';
-        color: #F25D07;
-
+    .projetos-menu li > img{
+        display: inline-block;
     }
 
     .projetos-menu-active{
@@ -428,3 +423,7 @@ myTags > span{
     text-transform: uppercase;
 }
 
+/*
+.boxForP-hide{
+    display:block;
+}*/
