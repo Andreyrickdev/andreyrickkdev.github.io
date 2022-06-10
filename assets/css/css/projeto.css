@@ -297,6 +297,12 @@ myTags > span{
     color: #fff;
 }
 
+@media (min-width: 591px) and (max-width: 910px){
+    myTags > span{
+        font-size: 0.8rem;
+    }
+}
+
 .tagHtml {
     background-color: #db3232;
 }
@@ -429,6 +435,12 @@ myTags > span{
     transition: all .4s;
 }
 
+@media (min-width: 591px) and (max-width: 910px){
+    .link-pros-projetos{
+        padding: 5px;
+    }
+}
+
 .boxForP-hide{
     display:block;
     position: relative;
@@ -441,6 +453,12 @@ myTags > span{
     visibility: visible;
 }
 
+@media (min-width: 591px) and (max-width: 910px){
+    .boxForP-display{
+        font-size: 0.8rem;
+    }
+}
+
 .link-pros-projetos-display{
     display:block;
     position: relative;
@@ -451,3 +469,14 @@ myTags > span{
     height: 16vh!important;
 }
 
+@media (min-width: 591px) and (max-width: 910px){
+    .boxForP-auto{
+        height: 12.5vh!important;
+    }
+}
+
+@media (max-width: 590px){
+    .boxForP-auto{
+        height: 14vh!important;
+    }
+}
