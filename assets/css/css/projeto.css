@@ -37,6 +37,11 @@
     }
 }
 
+.dad-projetos-menu{
+    position: relative;
+    overflow: hidden;
+}
+
 @media (max-width: 1500px){     
 
     .dad-projetos-menu{
@@ -163,25 +168,42 @@
 
 }
 
-
-.balls-of-projects{
+.squareBack{
     position:absolute;
-    width: 50px;
-    display: flex;
+    width: 15px;
+    height: 39px;
+    display: block;
     z-index: 2;
-    gap:10px;
-    top: 50px;
-    left: 120px;
-    
+    top: 0px;
+    left: 0px;
+    transition: all 0.5s;
+    background-color: rgba(242, 93, 7,0.7);
 }
 
-.ball-project{
-    border: 3px solid #F25D07;
-    padding: 6px;
-    border-radius: 50%;
+.squareBack:hover{
+    background-color: rgba(242, 93, 7,0.9);
+}
+
+.squareForward{
+    position: absolute;
+    width: 15px;
+    height: 39px;
+    display: block;
     z-index: 2;
-    left:0;
-    cursor: pointer;
+    top: 0px;
+    background-color: rgba(242, 93, 7,0.7);
+    right: 0px;
+    transition: all 0.5s;
+}
+
+@media (max-width: 1000px){
+    .squareBack, .squareForward{
+        display: none;
+    }
+}
+
+.squareForward:hover{
+    background-color: rgba(242, 93, 7,0.9);
 }
 
 .ball-project:hover{
@@ -203,50 +225,12 @@
     margin-left:10px;
     gap:10px;
 
-    overflow-x:hidden;
+    overflow-x:auto;
+    box-sizing: border-box;
 }
 
-@media (max-width: 1500px){     
-
-    .projetos-menu{     /* uma bolinha*/
-        width: 80ch;
-    }
-}
-
-@media (max-width: 1450px){
-
-    .projetos-menu{     /* two balls*/
-        width: 90ch;
-        /*transform: translateX(-100px);*/
-    }
-}
-
-@media (max-width: 1300px){
-
-    .projetos-menu{     /* three balls*/
-        width: 99ch;
-        /*transform: translateX(-98px);*/
-        /*transform: translateX(-240px);*/
-    }
-}
-
-@media (max-width: 1200px){
-
-    .projetos-menu{     /* three balls*/
-        width: 80ch;
-        /*transform: translateX(-100px);*/
-        /*transform: translateX(-230px);*/
-    }
-}
-
-@media (max-width: 1100px){
-
-    .projetos-menu{     /* four balls*/
-        width: 423ch;
-        /*transform: translateX(-100px);*/
-        /*transform: translateX(-240px);*/
-        /*transform: translateX(-380px);*/
-    }
+.projetos-menu::-webkit-scrollbar {
+    display: none;
 }
 
 .projetos-menu li{ 
