@@ -23,6 +23,19 @@
     grid-template-columns: auto 1fr;
     gap:20px;
     background-color: rgba(255,255,255,0.4);
+    align-items: center;
+}
+
+@media (max-width: 400px){
+    
+    .image-dad .img img{
+        display: none;
+    }
+
+    .image-dad .img p{
+        font-size: 0.9rem;
+        width: 42ch;
+    }
 }
 
 .remove-slide{
