@@ -58,6 +58,12 @@ function closedProject () {
 
     const fechar = document.getElementsByClassName('closed');
 
+    fechar[0].addEventListener('click', function () {
+
+        
+
+    });
+
 }
 
 closedProject();
