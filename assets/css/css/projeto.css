@@ -407,6 +407,13 @@ myTags > span{
     align-self: end;
 }
 
+.lista-projetos-dad .lista-projetos .boxForP .tags-and-close i{
+    color: #F25D07;
+    font-size: 1.2rem;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
 .link-pros-projetos{
     color:#F25D07;
     display:block;
