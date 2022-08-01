@@ -1,5 +1,5 @@
 
-function selectProject () {
+function openProject () {
 
     const projetos = document.getElementsByClassName('imgProject');
     const dadBox = document.getElementsByClassName('boxForP');
@@ -64,4 +64,4 @@ function selectProject () {
     });
 }
 
-selectProject();
+openProject();
