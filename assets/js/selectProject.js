@@ -62,6 +62,7 @@ function closedProject () {
 
         const boxForP = document.getElementsByClassName('boxForP')[0];
 
+        boxForP.classList.remove('boxForP-auto');
     });
 
 }
