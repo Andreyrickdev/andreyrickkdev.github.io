@@ -414,6 +414,10 @@ myTags > span{
     cursor: pointer;
 }
 
+.lista-projetos-dad .lista-projetos .boxForP .tags-and-close i:hover{
+    color: #f25d07d5;
+}
+
 .link-pros-projetos{
     color:#F25D07;
     display:block;
