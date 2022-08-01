@@ -402,6 +402,7 @@ myTags > span{
     height:23px;
     transition: all .6s;
     overflow-y: hidden;
+    display: grid;
 }
 
 .lista-projetos-dad .lista-projetos .boxForP .tags-and-close{
