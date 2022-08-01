@@ -6,6 +6,7 @@ const linkProjetos = document.getElementsByClassName('link-pros-projetos');
 
 function openProject () {
 
+    const fechar = document.getElementsByClassName('closed');
 
     projetos[0].addEventListener("click", function(){
 
