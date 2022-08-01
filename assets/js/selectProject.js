@@ -85,6 +85,11 @@ function closedProject () {
 
         boxForP.classList.remove('boxForP-auto');
     });
+
+    fechar[4].addEventListener('click', function () {
+
+        
+    });
 }
 
 closedProject();
