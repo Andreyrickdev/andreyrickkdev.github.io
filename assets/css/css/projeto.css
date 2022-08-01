@@ -436,6 +436,7 @@ myTags > span{
     position: relative;
     visibility: hidden;
     transition: all .4s;
+    align-self: center;
 }
 
 @media (min-width: 591px) and (max-width: 910px){
