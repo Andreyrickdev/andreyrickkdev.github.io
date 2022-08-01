@@ -81,7 +81,7 @@ function closedProject () {
 
     fechar[3].addEventListener('click', function () {
 
-        
+        const boxForP = document.getElementsByClassName('boxForP')[3];
     });
 }
 
