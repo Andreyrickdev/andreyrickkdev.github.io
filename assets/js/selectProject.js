@@ -56,6 +56,7 @@ openProject();
 
 function closedProject () {
 
+    const fechar = document.getElementsByClassName('closed');
 
 }
 
