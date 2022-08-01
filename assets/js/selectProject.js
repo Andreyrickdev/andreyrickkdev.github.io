@@ -19,8 +19,6 @@ function openProject () {
 
         dadBox[1].classList.toggle('boxForP-auto');
         boxForP[1].classList.toggle('boxForP-display');
-        linkProjetos[1].classList.toggle('link-pros-projetos-display');
-        console.log(this);
     });
 
     projetos[2].addEventListener("click", function(){
