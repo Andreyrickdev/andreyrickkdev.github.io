@@ -449,6 +449,12 @@ myTags > span{
     position: relative;
 }
 
+@media (max-width: 1200px){
+    .projetos .lista-projetos-dad .lista-projetos li .boxForP .boxForP-hide{
+        font-size: 0.90rem;
+    }
+}
+
 .boxForP-display{
     display:block;
     position: relative;
