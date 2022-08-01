@@ -434,7 +434,6 @@ myTags > span{
     font-size:1.2rem;
     text-transform: uppercase;
     position: relative;
-    visibility: hidden;
     transition: all .4s;
     align-self: center;
 }
