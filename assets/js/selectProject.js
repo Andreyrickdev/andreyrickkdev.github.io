@@ -54,6 +54,7 @@ function openProject () {
 
         dadBox[6].classList.toggle('boxForP-auto');
         boxForP[6].classList.toggle('boxForP-display');
+        fechar[6].classList.toggle('x-hide');
     });
 }
 
