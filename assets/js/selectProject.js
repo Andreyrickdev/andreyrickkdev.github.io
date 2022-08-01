@@ -49,8 +49,6 @@ function openProject () {
 
         dadBox[6].classList.toggle('boxForP-auto');
         boxForP[6].classList.toggle('boxForP-display');
-        linkProjetos[6].classList.toggle('link-pros-projetos-display');
-        console.log(this);
     });
 }
 
