@@ -223,6 +223,9 @@
 
     overflow-x:auto;
     box-sizing: border-box;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 .projetos-menu::-webkit-scrollbar {
