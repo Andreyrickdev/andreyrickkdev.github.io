@@ -410,6 +410,7 @@ myTags > span{
     align-items: center;
     justify-content: space-between;
     align-self: end;
+    padding-bottom: 5px;
 }
 
 .lista-projetos-dad .lista-projetos .boxForP .tags-and-close i{
