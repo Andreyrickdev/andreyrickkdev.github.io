@@ -60,7 +60,7 @@ function closedProject () {
 
     fechar[0].addEventListener('click', function () {
 
-        
+        const boxForP = document.getElementsByClassName('boxForP')[0];
 
     });
 
