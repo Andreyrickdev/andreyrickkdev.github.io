@@ -447,7 +447,6 @@ myTags > span{
 .boxForP-hide{
     display:block;
     position: relative;
-    visibility: hidden;
 }
 
 .boxForP-display{
