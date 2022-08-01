@@ -9,8 +9,6 @@ function openProject () {
 
     projetos[0].addEventListener("click", function(){
 
-        console.log(this);
-        
         dadBox[0].classList.toggle('boxForP-auto');
         boxForP[0].classList.toggle('boxForP-display');
     });
