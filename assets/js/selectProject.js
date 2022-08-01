@@ -94,8 +94,8 @@ function closedProject () {
     });
 
     fechar[5].addEventListener('click', function () {
-
-        
+     
+        const boxForP = document.getElementsByClassName('boxForP')[5];
     });
 }
 
