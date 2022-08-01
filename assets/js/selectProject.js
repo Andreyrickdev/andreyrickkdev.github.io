@@ -1,10 +1,10 @@
 
 const projetos = document.getElementsByClassName('imgProject');
 const dadBox = document.getElementsByClassName('boxForP');
+const boxForP = document.getElementsByClassName('boxForP-hide');
 
 function openProject () {
 
-    const boxForP = document.getElementsByClassName('boxForP-hide');
     const linkProjetos = document.getElementsByClassName('link-pros-projetos');
 
     projetos[0].addEventListener("click", function(){
