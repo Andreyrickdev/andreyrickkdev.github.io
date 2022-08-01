@@ -13,7 +13,6 @@ function openProject () {
         
         dadBox[0].classList.toggle('boxForP-auto');
         boxForP[0].classList.toggle('boxForP-display');
-        linkProjetos[0].classList.toggle('link-pros-projetos-display');
     });
 
     projetos[1].addEventListener("click", function(){
