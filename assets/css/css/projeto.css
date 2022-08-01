@@ -479,6 +479,12 @@ myTags > span{
     }
 }
 
+@media (max-width: 910px){
+    .projetos .lista-projetos-dad .lista-projetos li .boxForP .link-pros-projetos{
+        font-size: 1.1rem;
+    }
+}
+
 .link-pros-projetos-display{
     display:block;
     position: relative;
