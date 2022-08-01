@@ -47,6 +47,7 @@ function openProject () {
 
         dadBox[5].classList.toggle('boxForP-auto');
         boxForP[5].classList.toggle('boxForP-display');
+        fechar[5].classList.toggle('x-hide');
     });
 
     projetos[6].addEventListener("click", function(){
