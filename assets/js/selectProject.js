@@ -104,7 +104,7 @@ function closedProject () {
 
         const boxForP = document.getElementsByClassName('boxForP')[6];
 
-        
+        boxForP.classList.remove('boxForP-auto');
     });
 }
 
