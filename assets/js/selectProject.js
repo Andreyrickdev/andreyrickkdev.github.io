@@ -76,6 +76,7 @@ function closedProject () {
 
         const boxForP = document.getElementsByClassName('boxForP')[2];
 
+        boxForP.classList.remove('boxForP-auto');
     });
 }
 
