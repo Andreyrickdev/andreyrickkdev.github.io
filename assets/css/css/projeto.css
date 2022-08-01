@@ -501,11 +501,6 @@ myTags > span{
     }
 }
 
-@media (min-width: 591px) and (max-width: 910px){
-    .boxForP-auto{
-        height: 98px!important;
-    }
-}
 
 @media (max-width: 590px){
     .boxForP-auto{
