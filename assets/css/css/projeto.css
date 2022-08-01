@@ -400,6 +400,13 @@ myTags > span{
     overflow-y: hidden;
 }
 
+.lista-projetos-dad .lista-projetos .boxForP .tags-and-close{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-self: end;
+}
+
 .link-pros-projetos{
     color:#F25D07;
     display:block;
