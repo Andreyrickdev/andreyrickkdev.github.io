@@ -53,3 +53,10 @@ function openProject () {
 }
 
 openProject();
+
+function closedProject () {
+
+
+}
+
+closedProject();
