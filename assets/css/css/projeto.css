@@ -264,6 +264,10 @@
     background-color: #F25D07;
 }
 
+.lista-projetos-dad .lista-projetos li .imgProject{
+    object-fit: cover;
+}
+
 .lista-projetos li > p > myTags{
     display: flex;
     gap: 5px;
