@@ -495,6 +495,12 @@ myTags > span{
     height: 123px!important;
 }
 
+@media (max-width: 910px) and (min-width: 800px){
+    .projetos .lista-projetos-dad .lista-projetos li .boxForP-auto{
+        height: 100%!important;
+    }
+}
+
 @media (min-width: 591px) and (max-width: 910px){
     .boxForP-auto{
         height: 98px!important;
