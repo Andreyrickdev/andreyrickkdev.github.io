@@ -1,7 +1,8 @@
 
+const projetos = document.getElementsByClassName('imgProject');
+
 function openProject () {
 
-    const projetos = document.getElementsByClassName('imgProject');
     const dadBox = document.getElementsByClassName('boxForP');
     const boxForP = document.getElementsByClassName('boxForP-hide');
     const linkProjetos = document.getElementsByClassName('link-pros-projetos');
