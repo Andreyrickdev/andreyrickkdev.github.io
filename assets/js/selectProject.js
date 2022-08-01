@@ -93,6 +93,7 @@ function closedProject () {
         const boxForP = document.getElementsByClassName('boxForP')[3];
 
         boxForP.classList.remove('boxForP-auto');
+        fechar[3].classList.add('x-hide');
     });
 
     fechar[4].addEventListener('click', function () {
