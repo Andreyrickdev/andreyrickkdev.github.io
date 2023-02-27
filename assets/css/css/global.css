@@ -10,7 +10,7 @@ body, html {
 }
 
 body{
-    max-width:1600px;
+    /*max-width:1600px;*/
     margin:0 auto;
     font-family:'Fira Sans', Arial, sans-serif;
     color:#141414;
