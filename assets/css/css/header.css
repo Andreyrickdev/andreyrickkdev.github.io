@@ -12,6 +12,7 @@
     z-index:999;
     max-width: 1600px;
     margin: 0 auto;
+    user-select: none;
 }
 
 header ul{
