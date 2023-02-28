@@ -6,6 +6,7 @@
     display:block;
     height:60vh;
     overflow-x: hidden;
+    user-select: none;
 }
 
 .dad-background h3{
