@@ -32,4 +32,8 @@
         /*still working Andrey........*/
     }
 
+    .my-skills img {
+        width: 60px;
+        height: 60px;
+    }
 }
