@@ -23,6 +23,7 @@ body{
 
 ::-webkit-scrollbar {
     width: 10px;
+    height: 3px;
 }
 
 ::-webkit-scrollbar-track {
@@ -92,15 +93,16 @@ img{
     }
 }
 
+@media (max-width: 1200px){
+    .grid{
+        gap:30px;
+    }
+}
+
 @media (max-width: 800px){
     .grid{
         grid-template-columns: 1fr;
     }
 }
 
-@media (max-width: 1200px){
-    .grid{
-        gap:30px;
-    }
-}
 

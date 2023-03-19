@@ -40,9 +40,10 @@
 
 .dad-projetos-menu{
     position: relative;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
+/*
 @media (max-width: 1500px){     
 
     .dad-projetos-menu{
@@ -93,7 +94,7 @@
         overflow-x: hidden;
     }
 
-}
+}*/
 
 @media (max-width: 1000px){
 
@@ -225,13 +226,14 @@
     overflow-x:auto;
     box-sizing: border-box;
 
-    -ms-overflow-style: none;
-    scrollbar-width: none;
 }
 
-.projetos-menu::-webkit-scrollbar {
-    display: none;
+@media (max-width: 1200px) {
+    .projetos-menu {
+        width:400px;
+    }
 }
+
 
 .projetos-menu li{ 
     color:#fff;
@@ -429,11 +431,11 @@ myTags > span{
 }
 
 .lista-projetos-dad .lista-projetos .boxForP .tags-and-close i:hover{
-    color: #f25d07d5;
+    color: #F25D07;
 }
 
 .link-pros-projetos{
-    color:#F25D07;
+    color: #F25D07;
     display:block;
     text-align:center;
     width:200px;

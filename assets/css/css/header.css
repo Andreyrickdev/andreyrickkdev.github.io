@@ -15,6 +15,25 @@
     user-select: none;
 }
 
+.header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.header .logo::before {
+    content: url('../../img/logowolf.svg');
+    display: block;
+    position: absolute;
+    bottom:-20px;
+}
+
+.header .logo img {
+    position: relative;
+}
+
 header ul{
     display:flex;
     flex-wrap:wrap;
@@ -35,17 +54,28 @@ header ul{
 }
 
 .header-menu a:hover{
-    color: #F25D07;
+    color: #F25D07; 
     transition: color 0.5s;
 }
 
 @media (max-width:800px) {
     .header{
         flex-direction:column;
+        height: 150px;
     }
 
     .header-contato{
         justify-content: center;
         margin: 10px 0;
+    }
+
+    .header .logo::before {
+        bottom:-40px;
+    }
+}
+
+@media (max-width:400px) {
+    .header .logo::before {
+        display: none;
     }
 }
