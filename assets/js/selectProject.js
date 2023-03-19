@@ -33,61 +33,6 @@ function closedProject () {
         })
     }
     
-    /*fechar[0].addEventListener('click', function () {
-
-        const boxForP = document.getElementsByClassName('boxForP')[0];
-
-        boxForP.classList.remove('boxForP-auto');
-        fechar[0].classList.add('x-hide');
-    });
-
-    fechar[1].addEventListener('click', function () {
-
-        const boxForP = document.getElementsByClassName('boxForP')[1];
-
-        boxForP.classList.remove('boxForP-auto');
-        fechar[1].classList.add('x-hide');
-    });
-
-    fechar[2].addEventListener('click', function () {
-
-        const boxForP = document.getElementsByClassName('boxForP')[2];
-
-        boxForP.classList.remove('boxForP-auto');
-        fechar[2].classList.add('x-hide');
-    });
-
-    fechar[3].addEventListener('click', function () {
-
-        const boxForP = document.getElementsByClassName('boxForP')[3];
-
-        boxForP.classList.remove('boxForP-auto');
-        fechar[3].classList.add('x-hide');
-    });
-
-    fechar[4].addEventListener('click', function () {
-
-        const boxForP = document.getElementsByClassName('boxForP')[4];
-
-        boxForP.classList.remove('boxForP-auto');
-        fechar[4].classList.add('x-hide');
-    });
-
-    fechar[5].addEventListener('click', function () {
-     
-        const boxForP = document.getElementsByClassName('boxForP')[5];
-
-        boxForP.classList.remove('boxForP-auto');
-        fechar[5].classList.add('x-hide');
-    });
-
-    fechar[6].addEventListener('click', function () {
-
-        const boxForP = document.getElementsByClassName('boxForP')[6];
-
-        boxForP.classList.remove('boxForP-auto');
-        fechar[6].classList.add('x-hide');
-    });*/
 }
 
 closedProject();
