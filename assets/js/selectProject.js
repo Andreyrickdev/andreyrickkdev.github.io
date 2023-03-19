@@ -24,7 +24,16 @@ function closedProject () {
 
     const fechar = document.getElementsByClassName('closed');
 
-    fechar[0].addEventListener('click', function () {
+    for(let i = 0; i < fechar.length; i++) {
+        fechar[i].addEventListener('click', function () {
+
+            const boxForP = document.getElementsByClassName('boxForP')[i];
+            boxForP.classList.remove('boxForP-auto')
+            fechar[i].classList.add('x-hide');
+        })
+    }
+    
+    /*fechar[0].addEventListener('click', function () {
 
         const boxForP = document.getElementsByClassName('boxForP')[0];
 
@@ -78,7 +87,7 @@ function closedProject () {
 
         boxForP.classList.remove('boxForP-auto');
         fechar[6].classList.add('x-hide');
-    });
+    });*/
 }
 
 closedProject();
