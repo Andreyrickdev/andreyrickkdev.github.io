@@ -8,7 +8,15 @@ function openProject () {
 
     const fechar = document.getElementsByClassName('closed');
 
-    projetos[0].addEventListener("click", function(){
+    for(let i = 0; i < projetos.length; i++) {  //if active then desactive, if desactive then active
+        projetos[i].addEventListener('click', function () {
+            dadBox[i].classList.toggle('boxForP-auto');
+            boxForP[i].classList.toggle('boxForP-display');
+            fechar[i].classList.toggle('x-hide');
+        })
+    }
+
+    /*projetos[0].addEventListener("click", function(){
 
         dadBox[0].classList.toggle('boxForP-auto');
         boxForP[0].classList.toggle('boxForP-display');
@@ -55,7 +63,7 @@ function openProject () {
         dadBox[6].classList.toggle('boxForP-auto');
         boxForP[6].classList.toggle('boxForP-display');
         fechar[6].classList.toggle('x-hide');
-    });
+    });*/
 }
 
 openProject();
