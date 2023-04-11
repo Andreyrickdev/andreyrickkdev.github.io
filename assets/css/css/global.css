@@ -36,12 +36,12 @@ body{
 }
 
 ::-webkit-scrollbar-thumb:hover, ::-webkit-scrollbar-thump:active{
-    background-color: #F25D07;
+    background-color: #ed3238;
 }
 
 @media (max-width: 1000px) {
     ::-webkit-scrollbar-thumb {
-        background-color: #F25D07;
+        background-color: #ed3238;
         border-radius: 40px;
     }
 

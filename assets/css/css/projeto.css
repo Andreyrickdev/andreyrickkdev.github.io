@@ -153,7 +153,7 @@
     }
     
     #hamburger{
-        border-top: 3px solid #F25D07;
+        border-top: 3px solid #ed3238;
         width: 30px;
         margin-right:20px;
         cursor:pointer;
@@ -164,7 +164,7 @@
         display: block;
         width: 30px;
         height: 3px;
-        background-color: #F25D07;
+        background-color: #ed3238;
         margin-top: 5px;
     }
 
@@ -205,12 +205,12 @@
 }
 
 .ball-project:hover{
-    background-color: #F25D07;
+    background-color: #ed3238;
 }
 
 
 .ball-active{
-    background-color: #F25D07;
+    background-color: #ed3238;
 }
 
 .ball-none{
@@ -247,7 +247,7 @@
 }
 
 .projetos-menu li:active{
-    color: #F25D07;
+    color: #ed3238;
 }
 
 .projetos-menu li > img{
@@ -267,7 +267,7 @@
     margin: 0px;
     width:40ch;
     position:relative;
-    background-color: #F25D07;
+    background-color: #ed3238;
 }
 
 .lista-projetos-dad .lista-projetos li .imgProject{
@@ -420,7 +420,7 @@ myTags > span{
 }
 
 .lista-projetos-dad .lista-projetos .boxForP .tags-and-close i{
-    color: #F25D07;
+    color: #ed3238;
     font-size: 1.2rem;
     margin-right: 10px;
     cursor: pointer;
@@ -431,11 +431,11 @@ myTags > span{
 }
 
 .lista-projetos-dad .lista-projetos .boxForP .tags-and-close i:hover{
-    color: #F25D07;
+    color: #ed3238;
 }
 
 .link-pros-projetos{
-    color: #F25D07;
+    color: #ed3238;
     display:block;
     text-align:center;
     width:200px;
